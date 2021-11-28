@@ -1,0 +1,26 @@
+/* This file is made for aditional JS features.*/
+
+body{
+    overscroll-behavior-y: none;
+}
+
+#progressBar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 4px;
+    background: linear-gradient(to right, #fa8690, #faa32a);
+    width: 0%;
+    z-index: 100;
+    transition: width 0.2s ease-out;
+}
+
+.box{
+    margin: auto;
+    background-color: red;
+    height: 100px;
+    width: 100px;
+}
+.jsProject{
+    display: none;
+}
