@@ -1,3 +1,12 @@
+//************Function that gets rid of preloader */
+window.addEventListener("load", ()=>{
+    const preloader = document.querySelector(".preloader");
+    preloader.classList.add("preloader-finish");
+})
+
+
+
+
 // ************CODE FOR TOP ANIMATION BAR***********//
 const progressBar = document.querySelector("#progressBar");
 const section = document.querySelector("section");

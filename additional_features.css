@@ -6,3 +6,90 @@
     min-width: 100%;
     min-height: 100%;
 }
+
+.preloader{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(199, 197, 197, 0.753);
+    z-index: 1;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s ease;
+}
+
+.preloader-finish{
+    opacity: 0;
+    pointer-events: none;
+}
+.star1, .star2, .star3{
+    position: absolute;
+    top: 0;
+}
+.star1{
+    height: 80px;
+    left: 25%;
+    transform: translate(25%, -100%);
+    animation: stars 3s infinite 0.5s;
+}
+.star2{
+    height: 60px;
+    left: 60%;
+    transform: translate(50%, -100%);
+    animation: stars 4s infinite ;
+    
+}
+.star3{
+    height: 70px;
+    left: 75%;
+    transform: translate(75%, -100%);
+    animation: stars 2s infinite ;
+}
+.saturn{
+    height: 150px;
+    animation: saturn 3s infinite alternate;
+}
+.preloader h4{
+    top: 75%;
+    font-size: 25px;
+}
+.rocket{
+    margin-top: 250px;
+    height: 200px;
+    animation: rocket 1s infinite alternate;
+}
+
+
+
+
+
+
+@keyframes rocket{
+    from{
+        transform: translateX(0px);
+    }
+    to{
+        transform: translateX(50px);
+    }
+}
+@keyframes stars{
+    from{
+        top: 0%;
+    }
+    to{
+        top: 120%;
+    }
+}
+@keyframes saturn {
+    from{
+        transform: translateX(0px);
+        transform: translateY(0px);
+    }
+    to{
+        transform: translateX(10px);
+        transform: translateY(10px);
+    }
+    
+}
