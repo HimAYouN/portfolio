@@ -24,7 +24,11 @@ h1{
     margin-top: 100px;
     top: 90px;
 }
+.atxt{
+    display: inline;
+}
 .protxt{
+    display: inline;
     font-size: 16px;
     font-family: 'Great Vibes', cursive;
     color: #383a39;

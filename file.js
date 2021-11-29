@@ -1,4 +1,4 @@
-//************Function that gets rid of preloader */
+//************Function that gets rid of preloader *//
 window.addEventListener("load", ()=>{
     const preloader = document.querySelector(".preloader");
     preloader.classList.add("preloader-finish");
@@ -39,4 +39,34 @@ box.addEventListener("mouseout", function(){
 function colorChange(){
     var colorInp = document.querySelector("#colorinput").value;
     document.querySelector("body").style.backgroundColor = colorInp;
+}
+
+
+
+//*****************ANIMATE THE HEADING************/
+const heading1 = document.querySelector(".heading1");
+const heading1Txt = heading1.textContent;
+const splitText= heading1Txt.split("");
+heading1.textContent="";
+for (let t = 0 ; t< splitText.length; t++){
+    heading1.innerHTML +="<span>" + splitText[t]+"</span>"
+}
+
+let char = 0;
+let timer = setInterval(onTick,50);
+
+function onTick(){
+    const span = heading1.querySelectorAll("span")[char];
+    span.classList.add("fade")
+    char++;
+    if (char === splitText.length){
+        complete();
+        return;
+    }
+}
+
+
+function complete(){
+    clearInterval(timer);
+    timer = null
 }
