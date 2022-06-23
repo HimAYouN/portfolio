@@ -3,6 +3,7 @@ body{
     padding: 0;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
+    cursor: default;
 }
 
 
@@ -38,7 +39,15 @@ p{
     width: 40%;
     color: rgb(53, 52, 52);
 }
-
+h2{
+    font-family: 'Great Vibes', cursive;
+}
+h2:hover{
+    cursor: default;
+    color: #7bf3dd;
+    text-decoration: none;
+    
+}
 
 .bottom_cloud{
     position: absolute;

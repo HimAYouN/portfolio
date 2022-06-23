@@ -61,7 +61,12 @@
     animation: rocket 1s infinite alternate;
 }
 
-
+.top_cloud{
+    animation: cloud 3s infinite alternate;
+}
+.bottom_cloud{
+    animation: cloud 3s infinite alternate;
+}
 
 
 
@@ -93,7 +98,17 @@
     }
     
 }
-
+@keyframes cloud {
+    from{
+        transform: translateX(0px);
+        transform: translateY(0px);
+    }
+    to{
+        transform: translateX(20px);
+        transform: translateX(20px);
+    }
+    
+}
 
 
 
