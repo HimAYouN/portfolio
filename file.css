@@ -3,16 +3,19 @@ body{
     padding: 0;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
-    cursor: default;
+    cursor: grab;
+    background-color: #b2faed;
 }
 
 
 
 .upper-container{
     position: absolute;
-    background-color: #b0faec;
+    /* background-color: #b0faec; */
+    background-image: linear-gradient( #b0faec 50%, #ffffff 100%);
     position: relative;
     padding-top: 100px;
+    margin-bottom: 0px;
 }
 .top_cloud{
     position: absolute;
@@ -23,7 +26,9 @@ body{
 
 h1{
     margin-top: 100px;
+    size: 150%;
     top: 90px;
+    
 }
 .atxt{
     display: inline;
@@ -43,9 +48,9 @@ h2{
     font-family: 'Great Vibes', cursive;
 }
 h2:hover{
-    cursor: default;
-    color: #7bf3dd;
-    text-decoration: none;
+    color: #5cf0f0;
+    transition: all 0.3s ease-in-out;
+    cursor: crosshair;
     
 }
 
@@ -56,6 +61,11 @@ h2:hover{
 }
 .mountain-img{
     margin-top: -50px;
+}
+.middle-container{
+    margin-top: 0px;
+    background-image: linear-gradient( #ffffff 50%, #b0faec 100%);
+    padding-top: 10px;
 }
 
 .pic{
@@ -70,7 +80,12 @@ hr{
 }
 .skills{
     margin-top: 20px;
+    padding-top: 20px;
 }
+/* .skills:hover{
+    background-color: #b0faec;
+    transition: all 1s ease-in-out;
+} */
 
 .skill-img1{
     margin: auto;
@@ -78,7 +93,13 @@ hr{
     /*float: left;*/
 }
 .skills-img:hover{
-    background-color: #8efbe7;
+    height: 55px;
+    margin-bottom: 5px;
+    /* background-color: #8efbe7; */
+    transition: all .31s ease-in-out;
+    cursor: crosshair;
+
+    
 }
 .skills-img{
     height: 50px;
@@ -88,16 +109,20 @@ hr{
 
 
 .skill-img2{
+    padding: 10px;
     height: 150px;
 }
 .bottom-container{
-    background-color: #e3fffa;
+    background-image: linear-gradient( #b0faec 50%, #ffffff 100%);
 }
 
 
 .twitter{
     margin: 10px;
     height: 8%;
+}
+.telegram{
+    cursor: not-allowed;
 }
 
   

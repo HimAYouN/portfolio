@@ -62,7 +62,7 @@
 }
 
 .top_cloud{
-    animation: cloud 3s infinite alternate;
+    animation: cloud 2.1s infinite alternate;
 }
 .bottom_cloud{
     animation: cloud 3s infinite alternate;

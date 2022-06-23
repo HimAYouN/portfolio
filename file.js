@@ -53,7 +53,7 @@ for (let t = 0 ; t< splitText.length; t++){
 }
 
 let char = 0;
-let timer = setInterval(onTick,50);
+let timer = setInterval(onTick,120);
 
 function onTick(){
     const span = heading1.querySelectorAll("span")[char];
