@@ -6,8 +6,16 @@ body{
     cursor: grab;
     background-color: #b2faed;
 }
+.fade::selection{
+    background-color: transparent;
+    color: red;
+}
+p::selection{
+    background-color: transparent;
+    color: red;
+}
 h2::selection{
-    background-color: #a7faebe0;
+    background-color: transparent;
     color: red;
 }
 section{
