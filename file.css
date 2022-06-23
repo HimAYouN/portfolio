@@ -6,7 +6,16 @@ body{
     cursor: grab;
     background-color: #b2faed;
 }
-
+h2::selection{
+    background-color: #a7faebe0;
+    color: red;
+}
+section{
+    display: none;
+}
+.sectionclass{
+    display: block;
+}
 
 
 .upper-container{
@@ -26,8 +35,11 @@ body{
 
 h1{
     margin-top: 100px;
-    size: 150%;
+    font-size: 50px;
     top: 90px;
+    /* background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    
+    color: transparent; */
     
 }
 .atxt{

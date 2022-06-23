@@ -1,7 +1,9 @@
 //************Function that gets rid of preloader *//
 window.addEventListener("load", ()=>{
     const preloader = document.querySelector(".preloader");
+    const sectionviewer = document.querySelector("section");
     preloader.classList.add("preloader-finish");
+    sectionviewer.classList.add("sectionclass");
 })
 
 
