@@ -67,6 +67,7 @@ h1{
     color: #383a39;
 }
 p{
+    text-align: left;
     margin: 50px auto;
     width: 40%;
     color: rgb(53, 52, 52);
