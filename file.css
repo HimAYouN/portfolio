@@ -94,6 +94,8 @@ h2:hover{
     height: 30%;
 }
 hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
     border: dotted rgb(93, 93, 93) 3px;
     border-bottom:none ;
     width: 10%;
@@ -154,6 +156,7 @@ hr{
     /* display: flex; */
     /* margin-left: 100px;
     padding: 100px; */
+    transition: 0.4s ease-in-out;
 }
 
 .twitter{
@@ -181,6 +184,9 @@ hr{
   }
 
   .projects:hover{
+    
+    margin: 10px 40px;
     border: 3px solid springgreen;
-        box-shadow: 2 3 black;
+    box-shadow: 5px 10px 5px rgba(55, 55, 55, 0.6) ;
+    
   }
