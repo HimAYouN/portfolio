@@ -135,7 +135,26 @@ hr{
 .bottom-container{
     background-image: linear-gradient( #b0faec 50%, #ffffff 100%);
 }
+/* .projectsDiv{
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 400px;
+    overflow: scroll;
+    
 
+} */
+.projects{
+    
+    height: 30%;
+    margin: 20px 40px;
+    border: 3px solid rgb(250, 201, 195);
+    /* display: flex; */
+    /* margin-left: 100px;
+    padding: 100px; */
+}
 
 .twitter{
     margin: 10px;
@@ -159,4 +178,9 @@ hr{
     .mountain-img{
         width: 200px;
     }
+  }
+
+  .projects:hover{
+    border: 3px solid springgreen;
+        box-shadow: 2 3 black;
   }
