@@ -50,6 +50,13 @@ h1{
     color: transparent; */
     
 }
+.heading1:hover{
+    text-shadow: 2.5px 5px 5px rgba(255, 255, 255, 0.934) ,
+    -2.5px -5px 5px rgba(255, 255, 255, 0.934);
+    transition: .1s ease-in-out;
+    color: rgba(0, 0, 0, 0.34);
+}
+
 .atxt{
     display: inline;
 }
@@ -115,11 +122,13 @@ hr{
     /*float: left;*/
 }
 .skills-img:hover{
-    height: 55px;
-    margin-bottom: 5px;
+    /* height: 55px; */
+    /* margin-top: 5px; */
     /* background-color: #8efbe7; */
     transition: all .31s ease-in-out;
     cursor: crosshair;
+    box-shadow: 2.5px 5px 5px rgba(0, 0, 0, 0.89) ,
+    -2.5px -5px 5px #b0faec;
 
     
 }
@@ -133,6 +142,9 @@ hr{
 .skill-img2{
     padding: 10px;
     height: 150px;
+    /* border: 1px solid black;
+    text-shadow: 5px 10px 5px rgba(0, 0, 0, 0.89) ,
+    -5px -10px 5px rgb(255, 255, 255); */
 }
 .bottom-container{
     background-image: linear-gradient( #b0faec 50%, #ffffff 100%);
@@ -160,8 +172,11 @@ hr{
 }
 
 .twitter{
+    /* border: 1px solid rgba(0, 0, 0, 0.785); */
+    border-radius: 20%;
     margin: 10px;
     height: 8%;
+    transition: 0.4s ease-in-out;
 }
 .telegram{
     cursor: not-allowed;
@@ -187,6 +202,11 @@ hr{
     
     margin: 10px 40px;
     border: 3px solid springgreen;
-    box-shadow: 5px 10px 5px rgba(55, 55, 55, 0.6) ;
+    box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.89) ,
+    -5px -10px 5px rgb(255, 255, 255);
     
+  }
+  .twitter:hover{
+    box-shadow: 2.5px 5px 5px rgba(0, 0, 0, 0.89) ,
+    -2.5px -5px 5px rgb(255, 255, 255);
   }
