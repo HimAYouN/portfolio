@@ -102,6 +102,11 @@ h2:hover{
     margin: 50px auto;
     border-radius: 50%;
     height: 30%;
+    transition: .3s ease-in-out;
+}
+.pic:hover{
+    box-shadow: 5px 10px 5px rgb(113, 113, 113) ,
+    -5px -10px 5px rgb(203, 203, 203) ;
 }
 hr{
     margin-top: 20px;
