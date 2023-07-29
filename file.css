@@ -74,10 +74,12 @@ p{
 }
 h2{
     font-family: 'Great Vibes', cursive;
+    
+    transition: all 0.3s ease-in-out;
 }
 h2:hover{
     color: #5cf0f0;
-    transition: all 0.3s ease-in-out;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.863);
     cursor: crosshair;
     
 }
@@ -126,7 +128,6 @@ hr{
     /* height: 55px; */
     /* margin-top: 5px; */
     /* background-color: #8efbe7; */
-    transition: all .31s ease-in-out;
     cursor: crosshair;
     box-shadow: 2.5px 5px 5px rgba(0, 0, 0, 0.89) ,
     -2.5px -4px 7px #b0faec;
@@ -137,6 +138,8 @@ hr{
     height: 50px;
     border-radius: 50%;
     margin: 10px;
+    
+    transition: all .31s ease-in-out;
 }
 
 
@@ -200,7 +203,6 @@ hr{
   }
 
   .projects:hover{
-    
     margin: 10px 40px;
     border: 3px solid springgreen;
     box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.89) ,
