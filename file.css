@@ -50,12 +50,8 @@ h1{
     color: transparent; */
     
 }
-.heading1:hover{
-    text-shadow: 2.5px 5px 5px rgba(255, 255, 255, 0.934) ,
-    -2.5px -5px 5px rgba(255, 255, 255, 0.934);
-    transition: .1s ease-in-out;
-    color: rgba(0, 0, 0, 0.34);
-}
+
+
 
 .atxt{
     display: inline;
@@ -108,6 +104,13 @@ h2:hover{
     box-shadow: 5px 10px 5px rgb(113, 113, 113) ,
     -5px -10px 5px rgb(203, 203, 203) ;
 }
+
+
+
+
+
+
+
 hr{
     margin-top: 20px;
     margin-bottom: 20px;
@@ -127,6 +130,7 @@ hr{
 .skill-img1{
     margin: auto;
     height: 150px;
+
     /*float: left;*/
 }
 .skills-img:hover{
@@ -136,7 +140,6 @@ hr{
     cursor: crosshair;
     box-shadow: 2.5px 5px 5px rgba(0, 0, 0, 0.89) ,
     -2.5px -4px 7px #b0faec;
-
     
 }
 .skills-img{
