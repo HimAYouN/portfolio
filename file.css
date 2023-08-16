@@ -142,6 +142,12 @@ hr{
     -2.5px -4px 7px #b0faec;
     
 }
+
+.skillImgsDiv{
+    margin: 30px;
+    /* padding: 40px; */
+    /* border: 1px solid black; */
+}
 .skills-img{
     height: 50px;
     border-radius: 50%;
@@ -195,6 +201,18 @@ hr{
     cursor: not-allowed;
 }
 
+  .projects:hover{
+    margin: 10px 20px;
+    /* border: 3px solid springgreen; */
+    box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.89) ,
+    -5px -10px 5px rgb(255, 255, 255);
+    
+  }
+  .twitter:hover{
+    box-shadow: 2.5px 5px 5px rgba(0, 0, 0, 0.89) ,
+    -2.5px -5px 2px rgb(255, 255, 255);
+  }
+
   
   @media screen and (max-width: 600px) {
     .mountain-img{
@@ -209,16 +227,4 @@ hr{
     .mountain-img{
         width: 200px;
     }
-  }
-
-  .projects:hover{
-    margin: 10px 20px;
-    /* border: 3px solid springgreen; */
-    box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.89) ,
-    -5px -10px 5px rgb(255, 255, 255);
-    
-  }
-  .twitter:hover{
-    box-shadow: 2.5px 5px 5px rgba(0, 0, 0, 0.89) ,
-    -2.5px -5px 2px rgb(255, 255, 255);
   }
